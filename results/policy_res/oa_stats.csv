@@ -1,0 +1,9 @@
+oa_group,policy_category,journal_count
+High OA (>=50%),Disclosure Required,1000
+High OA (>=50%),Not Mentioned,505
+High OA (>=50%),Open,1
+High OA (>=50%),Strict Prohibition,7
+Low OA (<50%),Not Mentioned,1023
+Low OA (<50%),Disclosure Required,2556
+Low OA (<50%),Strict Prohibition,20
+Low OA (<50%),Open,2

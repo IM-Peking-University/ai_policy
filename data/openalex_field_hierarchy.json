@@ -1,0 +1,1190 @@
+[
+    {
+        "domain_id": "https://openalex.org/domains/4",
+        "domain_name": "Health Sciences",
+        "fields": [
+            {
+                "field_id": "https://openalex.org/fields/35",
+                "field_name": "Dentistry",
+                "subfields": [
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3500",
+                        "subfield_name": "General Dentistry"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3504",
+                        "subfield_name": "Oral Surgery"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3505",
+                        "subfield_name": "Orthodontics"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3506",
+                        "subfield_name": "Periodontics"
+                    }
+                ]
+            },
+            {
+                "field_id": "https://openalex.org/fields/36",
+                "field_name": "Health Professions",
+                "subfields": [
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3603",
+                        "subfield_name": "Complementary and Manual Therapy"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3604",
+                        "subfield_name": "Emergency Medical Services"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3600",
+                        "subfield_name": "General Health Professions"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3605",
+                        "subfield_name": "Health Information Management"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3607",
+                        "subfield_name": "Medical Laboratory Technology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3608",
+                        "subfield_name": "Medical Terminology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3609",
+                        "subfield_name": "Occupational Therapy"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3611",
+                        "subfield_name": "Pharmacy"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3612",
+                        "subfield_name": "Physical Therapy, Sports Therapy and Rehabilitation"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3614",
+                        "subfield_name": "Radiological and Ultrasound Technology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3616",
+                        "subfield_name": "Speech and Hearing"
+                    }
+                ]
+            },
+            {
+                "field_id": "https://openalex.org/fields/27",
+                "field_name": "Medicine",
+                "subfields": [
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2702",
+                        "subfield_name": "Anatomy"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2703",
+                        "subfield_name": "Anesthesiology and Pain Medicine"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2704",
+                        "subfield_name": "Biochemistry"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2705",
+                        "subfield_name": "Cardiology and Cardiovascular Medicine"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2707",
+                        "subfield_name": "Complementary and alternative medicine"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2706",
+                        "subfield_name": "Critical Care and Intensive Care Medicine"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2708",
+                        "subfield_name": "Dermatology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2711",
+                        "subfield_name": "Emergency Medicine"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2712",
+                        "subfield_name": "Endocrinology, Diabetes and Metabolism"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2713",
+                        "subfield_name": "Epidemiology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2714",
+                        "subfield_name": "Family Practice"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2715",
+                        "subfield_name": "Gastroenterology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2716",
+                        "subfield_name": "Genetics"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2717",
+                        "subfield_name": "Geriatrics and Gerontology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2718",
+                        "subfield_name": "Health Informatics"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2720",
+                        "subfield_name": "Hematology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2721",
+                        "subfield_name": "Hepatology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2723",
+                        "subfield_name": "Immunology and Allergy"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2725",
+                        "subfield_name": "Infectious Diseases"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2724",
+                        "subfield_name": "Internal Medicine"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2726",
+                        "subfield_name": "Microbiology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2727",
+                        "subfield_name": "Nephrology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2728",
+                        "subfield_name": "Neurology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2729",
+                        "subfield_name": "Obstetrics and Gynecology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2730",
+                        "subfield_name": "Oncology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2731",
+                        "subfield_name": "Ophthalmology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2732",
+                        "subfield_name": "Orthopedics and Sports Medicine"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2733",
+                        "subfield_name": "Otorhinolaryngology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2734",
+                        "subfield_name": "Pathology and Forensic Medicine"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2735",
+                        "subfield_name": "Pediatrics, Perinatology and Child Health"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2736",
+                        "subfield_name": "Pharmacology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2737",
+                        "subfield_name": "Physiology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2738",
+                        "subfield_name": "Psychiatry and Mental health"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2739",
+                        "subfield_name": "Public Health, Environmental and Occupational Health"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2740",
+                        "subfield_name": "Pulmonary and Respiratory Medicine"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2741",
+                        "subfield_name": "Radiology, Nuclear Medicine and Imaging"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2742",
+                        "subfield_name": "Rehabilitation"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2743",
+                        "subfield_name": "Reproductive Medicine"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2745",
+                        "subfield_name": "Rheumatology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2746",
+                        "subfield_name": "Surgery"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2747",
+                        "subfield_name": "Transplantation"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2748",
+                        "subfield_name": "Urology"
+                    }
+                ]
+            },
+            {
+                "field_id": "https://openalex.org/fields/29",
+                "field_name": "Nursing",
+                "subfields": [
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2910",
+                        "subfield_name": "Issues, ethics and legal aspects"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2911",
+                        "subfield_name": "Leadership and Management"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2916",
+                        "subfield_name": "Nutrition and Dietetics"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2922",
+                        "subfield_name": "Research and Theory"
+                    }
+                ]
+            },
+            {
+                "field_id": "https://openalex.org/fields/34",
+                "field_name": "Veterinary",
+                "subfields": [
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3402",
+                        "subfield_name": "Equine"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3404",
+                        "subfield_name": "Small Animals"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "domain_id": "https://openalex.org/domains/1",
+        "domain_name": "Life Sciences",
+        "fields": [
+            {
+                "field_id": "https://openalex.org/fields/11",
+                "field_name": "Agricultural and Biological Sciences",
+                "subfields": [
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1102",
+                        "subfield_name": "Agronomy and Crop Science"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1103",
+                        "subfield_name": "Animal Science and Zoology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1104",
+                        "subfield_name": "Aquatic Science"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1105",
+                        "subfield_name": "Ecology, Evolution, Behavior and Systematics"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1106",
+                        "subfield_name": "Food Science"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1107",
+                        "subfield_name": "Forestry"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1100",
+                        "subfield_name": "General Agricultural and Biological Sciences"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1108",
+                        "subfield_name": "Horticulture"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1109",
+                        "subfield_name": "Insect Science"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1110",
+                        "subfield_name": "Plant Science"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1111",
+                        "subfield_name": "Soil Science"
+                    }
+                ]
+            },
+            {
+                "field_id": "https://openalex.org/fields/13",
+                "field_name": "Biochemistry, Genetics and Molecular Biology",
+                "subfields": [
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1302",
+                        "subfield_name": "Aging"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1303",
+                        "subfield_name": "Biochemistry"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1304",
+                        "subfield_name": "Biophysics"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1305",
+                        "subfield_name": "Biotechnology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1306",
+                        "subfield_name": "Cancer Research"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1307",
+                        "subfield_name": "Cell Biology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1308",
+                        "subfield_name": "Clinical Biochemistry"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1309",
+                        "subfield_name": "Developmental Biology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1310",
+                        "subfield_name": "Endocrinology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1311",
+                        "subfield_name": "Genetics"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1312",
+                        "subfield_name": "Molecular Biology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1313",
+                        "subfield_name": "Molecular Medicine"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1314",
+                        "subfield_name": "Physiology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1315",
+                        "subfield_name": "Structural Biology"
+                    }
+                ]
+            },
+            {
+                "field_id": "https://openalex.org/fields/24",
+                "field_name": "Immunology and Microbiology",
+                "subfields": [
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2402",
+                        "subfield_name": "Applied Microbiology and Biotechnology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2403",
+                        "subfield_name": "Immunology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2404",
+                        "subfield_name": "Microbiology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2405",
+                        "subfield_name": "Parasitology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2406",
+                        "subfield_name": "Virology"
+                    }
+                ]
+            },
+            {
+                "field_id": "https://openalex.org/fields/28",
+                "field_name": "Neuroscience",
+                "subfields": [
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2802",
+                        "subfield_name": "Behavioral Neuroscience"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2803",
+                        "subfield_name": "Biological Psychiatry"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2804",
+                        "subfield_name": "Cellular and Molecular Neuroscience"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2805",
+                        "subfield_name": "Cognitive Neuroscience"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2806",
+                        "subfield_name": "Developmental Neuroscience"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2807",
+                        "subfield_name": "Endocrine and Autonomic Systems"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2808",
+                        "subfield_name": "Neurology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2809",
+                        "subfield_name": "Sensory Systems"
+                    }
+                ]
+            },
+            {
+                "field_id": "https://openalex.org/fields/30",
+                "field_name": "Pharmacology, Toxicology and Pharmaceutics",
+                "subfields": [
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3002",
+                        "subfield_name": "Drug Discovery"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3003",
+                        "subfield_name": "Pharmaceutical Science"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3004",
+                        "subfield_name": "Pharmacology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3005",
+                        "subfield_name": "Toxicology"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "domain_id": "https://openalex.org/domains/3",
+        "domain_name": "Physical Sciences",
+        "fields": [
+            {
+                "field_id": "https://openalex.org/fields/15",
+                "field_name": "Chemical Engineering",
+                "subfields": [
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1502",
+                        "subfield_name": "Bioengineering"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1503",
+                        "subfield_name": "Catalysis"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1504",
+                        "subfield_name": "Chemical Health and Safety"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1506",
+                        "subfield_name": "Filtration and Separation"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1507",
+                        "subfield_name": "Fluid Flow and Transfer Processes"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1508",
+                        "subfield_name": "Process Chemistry and Technology"
+                    }
+                ]
+            },
+            {
+                "field_id": "https://openalex.org/fields/16",
+                "field_name": "Chemistry",
+                "subfields": [
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1602",
+                        "subfield_name": "Analytical Chemistry"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1603",
+                        "subfield_name": "Electrochemistry"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1604",
+                        "subfield_name": "Inorganic Chemistry"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1605",
+                        "subfield_name": "Organic Chemistry"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1606",
+                        "subfield_name": "Physical and Theoretical Chemistry"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1607",
+                        "subfield_name": "Spectroscopy"
+                    }
+                ]
+            },
+            {
+                "field_id": "https://openalex.org/fields/17",
+                "field_name": "Computer Science",
+                "subfields": [
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1702",
+                        "subfield_name": "Artificial Intelligence"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1703",
+                        "subfield_name": "Computational Theory and Mathematics"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1704",
+                        "subfield_name": "Computer Graphics and Computer-Aided Design"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1705",
+                        "subfield_name": "Computer Networks and Communications"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1706",
+                        "subfield_name": "Computer Science Applications"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1707",
+                        "subfield_name": "Computer Vision and Pattern Recognition"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1708",
+                        "subfield_name": "Hardware and Architecture"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1709",
+                        "subfield_name": "Human-Computer Interaction"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1710",
+                        "subfield_name": "Information Systems"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1711",
+                        "subfield_name": "Signal Processing"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1712",
+                        "subfield_name": "Software"
+                    }
+                ]
+            },
+            {
+                "field_id": "https://openalex.org/fields/19",
+                "field_name": "Earth and Planetary Sciences",
+                "subfields": [
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1902",
+                        "subfield_name": "Atmospheric Science"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1904",
+                        "subfield_name": "Earth-Surface Processes"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1906",
+                        "subfield_name": "Geochemistry and Petrology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1907",
+                        "subfield_name": "Geology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1908",
+                        "subfield_name": "Geophysics"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1910",
+                        "subfield_name": "Oceanography"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1911",
+                        "subfield_name": "Paleontology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1912",
+                        "subfield_name": "Space and Planetary Science"
+                    }
+                ]
+            },
+            {
+                "field_id": "https://openalex.org/fields/21",
+                "field_name": "Energy",
+                "subfields": [
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2102",
+                        "subfield_name": "Energy Engineering and Power Technology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2103",
+                        "subfield_name": "Fuel Technology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2100",
+                        "subfield_name": "General Energy"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2104",
+                        "subfield_name": "Nuclear Energy and Engineering"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2105",
+                        "subfield_name": "Renewable Energy, Sustainability and the Environment"
+                    }
+                ]
+            },
+            {
+                "field_id": "https://openalex.org/fields/22",
+                "field_name": "Engineering",
+                "subfields": [
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2202",
+                        "subfield_name": "Aerospace Engineering"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2216",
+                        "subfield_name": "Architecture"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2203",
+                        "subfield_name": "Automotive Engineering"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2204",
+                        "subfield_name": "Biomedical Engineering"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2215",
+                        "subfield_name": "Building and Construction"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2205",
+                        "subfield_name": "Civil and Structural Engineering"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2206",
+                        "subfield_name": "Computational Mechanics"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2207",
+                        "subfield_name": "Control and Systems Engineering"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2208",
+                        "subfield_name": "Electrical and Electronic Engineering"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2200",
+                        "subfield_name": "General Engineering"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2209",
+                        "subfield_name": "Industrial and Manufacturing Engineering"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2210",
+                        "subfield_name": "Mechanical Engineering"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2211",
+                        "subfield_name": "Mechanics of Materials"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2214",
+                        "subfield_name": "Media Technology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2212",
+                        "subfield_name": "Ocean Engineering"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2213",
+                        "subfield_name": "Safety, Risk, Reliability and Quality"
+                    }
+                ]
+            },
+            {
+                "field_id": "https://openalex.org/fields/23",
+                "field_name": "Environmental Science",
+                "subfields": [
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2302",
+                        "subfield_name": "Ecological Modeling"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2303",
+                        "subfield_name": "Ecology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2304",
+                        "subfield_name": "Environmental Chemistry"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2305",
+                        "subfield_name": "Environmental Engineering"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2306",
+                        "subfield_name": "Global and Planetary Change"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2307",
+                        "subfield_name": "Health, Toxicology and Mutagenesis"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2311",
+                        "subfield_name": "Industrial and Manufacturing Engineering"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2308",
+                        "subfield_name": "Management, Monitoring, Policy and Law"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2309",
+                        "subfield_name": "Nature and Landscape Conservation"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2310",
+                        "subfield_name": "Pollution"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2312",
+                        "subfield_name": "Water Science and Technology"
+                    }
+                ]
+            },
+            {
+                "field_id": "https://openalex.org/fields/25",
+                "field_name": "Materials Science",
+                "subfields": [
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2502",
+                        "subfield_name": "Biomaterials"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2503",
+                        "subfield_name": "Ceramics and Composites"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2504",
+                        "subfield_name": "Electronic, Optical and Magnetic Materials"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2500",
+                        "subfield_name": "General Materials Science"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2505",
+                        "subfield_name": "Materials Chemistry"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2506",
+                        "subfield_name": "Metals and Alloys"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2507",
+                        "subfield_name": "Polymers and Plastics"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2508",
+                        "subfield_name": "Surfaces, Coatings and Films"
+                    }
+                ]
+            },
+            {
+                "field_id": "https://openalex.org/fields/26",
+                "field_name": "Mathematics",
+                "subfields": [
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2602",
+                        "subfield_name": "Algebra and Number Theory"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2604",
+                        "subfield_name": "Applied Mathematics"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2605",
+                        "subfield_name": "Computational Mathematics"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2607",
+                        "subfield_name": "Discrete Mathematics and Combinatorics"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2608",
+                        "subfield_name": "Geometry and Topology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2610",
+                        "subfield_name": "Mathematical Physics"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2611",
+                        "subfield_name": "Modeling and Simulation"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2612",
+                        "subfield_name": "Numerical Analysis"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2613",
+                        "subfield_name": "Statistics and Probability"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2614",
+                        "subfield_name": "Theoretical Computer Science"
+                    }
+                ]
+            },
+            {
+                "field_id": "https://openalex.org/fields/31",
+                "field_name": "Physics and Astronomy",
+                "subfields": [
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3102",
+                        "subfield_name": "Acoustics and Ultrasonics"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3103",
+                        "subfield_name": "Astronomy and Astrophysics"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3107",
+                        "subfield_name": "Atomic and Molecular Physics, and Optics"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3104",
+                        "subfield_name": "Condensed Matter Physics"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3105",
+                        "subfield_name": "Instrumentation"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3106",
+                        "subfield_name": "Nuclear and High Energy Physics"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3108",
+                        "subfield_name": "Radiation"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3109",
+                        "subfield_name": "Statistical and Nonlinear Physics"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "domain_id": "https://openalex.org/domains/2",
+        "domain_name": "Social Sciences",
+        "fields": [
+            {
+                "field_id": "https://openalex.org/fields/12",
+                "field_name": "Arts and Humanities",
+                "subfields": [
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1204",
+                        "subfield_name": "Archeology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1205",
+                        "subfield_name": "Classics"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1206",
+                        "subfield_name": "Conservation"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1200",
+                        "subfield_name": "General Arts and Humanities"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1202",
+                        "subfield_name": "History"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1207",
+                        "subfield_name": "History and Philosophy of Science"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1203",
+                        "subfield_name": "Language and Linguistics"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1208",
+                        "subfield_name": "Literature and Literary Theory"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1209",
+                        "subfield_name": "Museology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1210",
+                        "subfield_name": "Music"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1211",
+                        "subfield_name": "Philosophy"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1212",
+                        "subfield_name": "Religious studies"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1213",
+                        "subfield_name": "Visual Arts and Performing Arts"
+                    }
+                ]
+            },
+            {
+                "field_id": "https://openalex.org/fields/14",
+                "field_name": "Business, Management and Accounting",
+                "subfields": [
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1402",
+                        "subfield_name": "Accounting"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1403",
+                        "subfield_name": "Business and International Management"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1410",
+                        "subfield_name": "Industrial relations"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1404",
+                        "subfield_name": "Management Information Systems"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1405",
+                        "subfield_name": "Management of Technology and Innovation"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1406",
+                        "subfield_name": "Marketing"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1407",
+                        "subfield_name": "Organizational Behavior and Human Resource Management"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1408",
+                        "subfield_name": "Strategy and Management"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1409",
+                        "subfield_name": "Tourism, Leisure and Hospitality Management"
+                    }
+                ]
+            },
+            {
+                "field_id": "https://openalex.org/fields/18",
+                "field_name": "Decision Sciences",
+                "subfields": [
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1800",
+                        "subfield_name": "General Decision Sciences"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1802",
+                        "subfield_name": "Information Systems and Management"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1803",
+                        "subfield_name": "Management Science and Operations Research"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/1804",
+                        "subfield_name": "Statistics, Probability and Uncertainty"
+                    }
+                ]
+            },
+            {
+                "field_id": "https://openalex.org/fields/20",
+                "field_name": "Economics, Econometrics and Finance",
+                "subfields": [
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2002",
+                        "subfield_name": "Economics and Econometrics"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2003",
+                        "subfield_name": "Finance"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/2000",
+                        "subfield_name": "General Economics, Econometrics and Finance"
+                    }
+                ]
+            },
+            {
+                "field_id": "https://openalex.org/fields/32",
+                "field_name": "Psychology",
+                "subfields": [
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3202",
+                        "subfield_name": "Applied Psychology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3203",
+                        "subfield_name": "Clinical Psychology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3204",
+                        "subfield_name": "Developmental and Educational Psychology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3205",
+                        "subfield_name": "Experimental and Cognitive Psychology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3200",
+                        "subfield_name": "General Psychology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3206",
+                        "subfield_name": "Neuropsychology and Physiological Psychology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3207",
+                        "subfield_name": "Social Psychology"
+                    }
+                ]
+            },
+            {
+                "field_id": "https://openalex.org/fields/33",
+                "field_name": "Social Sciences",
+                "subfields": [
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3314",
+                        "subfield_name": "Anthropology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3302",
+                        "subfield_name": "Archeology"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3315",
+                        "subfield_name": "Communication"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3316",
+                        "subfield_name": "Cultural Studies"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3317",
+                        "subfield_name": "Demography"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3303",
+                        "subfield_name": "Development"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3304",
+                        "subfield_name": "Education"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3318",
+                        "subfield_name": "Gender Studies"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3300",
+                        "subfield_name": "General Social Sciences"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3305",
+                        "subfield_name": "Geography, Planning and Development"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3306",
+                        "subfield_name": "Health"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3307",
+                        "subfield_name": "Human Factors and Ergonomics"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3308",
+                        "subfield_name": "Law"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3309",
+                        "subfield_name": "Library and Information Sciences"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3319",
+                        "subfield_name": "Life-span and Life-course Studies"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3310",
+                        "subfield_name": "Linguistics and Language"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3320",
+                        "subfield_name": "Political Science and International Relations"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3321",
+                        "subfield_name": "Public Administration"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3311",
+                        "subfield_name": "Safety Research"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3312",
+                        "subfield_name": "Sociology and Political Science"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3313",
+                        "subfield_name": "Transportation"
+                    },
+                    {
+                        "subfield_id": "https://openalex.org/subfields/3322",
+                        "subfield_name": "Urban Studies"
+                    }
+                ]
+            }
+        ]
+    }
+]

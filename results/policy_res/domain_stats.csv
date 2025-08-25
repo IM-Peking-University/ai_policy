@@ -1,0 +1,16 @@
+domain,policy_category,journal_count
+Health Sciences,Disclosure Required,823
+Health Sciences,Not Mentioned,395
+Health Sciences,Strict Prohibition,4
+Life Sciences,Not Mentioned,202
+Life Sciences,Disclosure Required,606
+Physical Sciences,Not Mentioned,384
+Physical Sciences,Disclosure Required,1051
+Physical Sciences,Strict Prohibition,13
+Physical Sciences,Open,1
+Multiple,Not Mentioned,17
+Multiple,Disclosure Required,18
+Social Sciences,Not Mentioned,530
+Social Sciences,Disclosure Required,1058
+Social Sciences,Open,2
+Social Sciences,Strict Prohibition,10
