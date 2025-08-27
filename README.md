@@ -16,7 +16,7 @@ ai_policy/
 │   ├── Journal.csv       # Journal metadata
 │   ├── journalInfo.json  # Detailed journal information
 │   ├── policy_texts.txt  # Journal policy texts
-|   ├── paper_2021-2025.csv # Information of papers
+|   ├── paper_2021-2025.csv # Information of papers,see "https://drive.google.com/file/d/1mDYzlbS6qXD3A04artaIrNXtn1u-4A_Q/view?usp=sharing"
 │   └── openalex_field_hierarchy.json
 ├── drawing/              # Visualization notebooks and figures
 │   ├── Fig 1.ipynb       # Figure 1: Journal distribution by categories
