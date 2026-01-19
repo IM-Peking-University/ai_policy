@@ -13,7 +13,7 @@ ALL_DATA_JSON = './all_data.json'
 OUTPUT_CSV = None
 
 # Serper API Key
-SERPER_API_KEY = "YOUR_SERPER_API_KEY_HERE"  # Replaced for safety
+SERPER_API_KEY = "YOUR_SERPER_API_KEY_HERE" 
 
 # Core Search Logic
 def serper_search(api_key: str, query: str, timeout: int = 20) -> dict | None:
@@ -31,10 +31,10 @@ def score_candidate(url: str, journal: dict) -> float:
     score = 0.0
     u = (url or "").lower()
     prefer = [
-        "springer.com", "springeropen.com", "nature.com", "wiley.com", "onlinelibrary.wiley.com",
+        "springer.com", "nature.com", "wiley.com", 
         "tandfonline.com", "elsevier.com", "sciencedirect.com", "cell.com",
-        "ieee.org", "ieeexplore.ieee.org", "acm.org", "dl.acm.org",
-        "oup.com", "academic.oup.com", "cambridge.org", "journals.cambridge.org",
+        "ieee.org", "acm.org", 
+        "oup.com",  "cambridge.org", 
         "sagepub.com", "mdpi.com", "frontiersin.org", "hindawi.com",
         "oxfordjournals.org", "rsc.org", "iop.org", "journals.aps.org", "aip.org",
         "bjournals.org", "amegroups.com", "kluweronline.com"

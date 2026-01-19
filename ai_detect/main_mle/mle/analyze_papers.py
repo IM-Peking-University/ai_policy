@@ -16,6 +16,10 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 def extract_adjectives(document):
+    """
+    Extracts adjectives (JJ tag) from a text document using NLTK.
+    Adjectives are the primary feature used for differentiating AI vs Human writing here.
+    """
     if pd.isna(document) or document == '':
         return []
     words = nltk.word_tokenize(str(document))
@@ -35,6 +39,9 @@ def parallelize_dataframe_processing(df, func, num_processes):
     return pd.concat(results)
 
 def document_log_probability(adjectives_counts, dist, indices):
+    """
+    Calculates the log probability of a document given a word distribution (Human or AI).
+    """
     word_counts = {word: adjectives_counts[word] for word in adjectives_counts if word in indices}
     if not word_counts:
         return np.log(1e-10)
@@ -45,6 +52,10 @@ def document_log_probability(adjectives_counts, dist, indices):
     return np.sum(counts * np.log(probs + 1e-10))
 
 def compute_log_likelihood(alpha, adjectives_list, human_dist, ai_dist, token_indices):
+    """
+    Computes the negative log-likelihood for the Mixture Model:
+    P(Doc) = (1-alpha)*P(Human) + alpha*P(AI)
+    """
     log_likelihood = 0.0
     alpha_safe = np.clip(alpha[0], 1e-15, 1.0 - 1e-15)
     log_1_minus_alpha = np.log(1.0 - alpha_safe)
@@ -56,13 +67,16 @@ def compute_log_likelihood(alpha, adjectives_list, human_dist, ai_dist, token_in
         
         term1 = log_1_minus_alpha + log_p_human
         term2 = log_alpha + log_p_ai
-        
+        # Log-Sum-Exp trick for numerical stability to prevent underflow
         max_log = np.maximum(term1, term2)
         log_likelihood += max_log + np.log(np.exp(term1 - max_log) + np.exp(term2 - max_log))
         
     return -log_likelihood
 
 def estimate_alpha(adjectives, human_dist, ai_dist, token_indices):
+    """
+    Finds the optimal alpha (proportion of AI content) that maximizes the likelihood.
+    """
     result = minimize(
         compute_log_likelihood,
         x0=np.array([0.5]),
@@ -73,6 +87,10 @@ def estimate_alpha(adjectives, human_dist, ai_dist, token_indices):
     return result.x[0]
 
 def compute_confidence_interval(alpha, adjectives_list, human_dist, ai_dist, token_indices, confidence=0.95):
+    """
+    Calculates Confidence Intervals using Fisher Information.
+    Uses logit transformation to ensure CI bounds remain within [0, 1].
+    """
     fisher_info = 0.0
     alpha_safe = np.clip(alpha, 1e-15, 1.0 - 1e-15)
     
@@ -82,9 +100,10 @@ def compute_confidence_interval(alpha, adjectives_list, human_dist, ai_dist, tok
         
         if abs(log_p_ai - log_p_human) < 1e-6:
             continue
-            
+        # --- Fisher Information Calculation Logic ---    
         max_log_p = np.maximum(log_p_ai, log_p_human)
         min_log_p = np.minimum(log_p_ai, log_p_human)
+        # Second derivative approx part
         log_diff_squared = 2 * max_log_p + 2 * np.log(abs(1 - np.exp(min_log_p - max_log_p)))
         
         log_1_minus_alpha = np.log(1.0 - alpha_safe)
@@ -104,7 +123,7 @@ def compute_confidence_interval(alpha, adjectives_list, human_dist, ai_dist, tok
     
     if fisher_info > 1e-10: 
         standard_error = 1.0 / np.sqrt(fisher_info)
-        
+        # Use logit transformation if alpha is not near boundaries
         if 1e-3 < alpha < 1.0 - 1e-3: 
             logit_alpha = np.log(alpha / (1.0 - alpha))
             logit_se = standard_error / (alpha * (1.0 - alpha))
@@ -127,9 +146,9 @@ def analyze_group(group_data, group_columns, human_dist, ai_dist, token_indices)
         return None
         
     adjectives = group_data['adjectives'].tolist()
-    
+    # 1. Point Estimate
     alpha = estimate_alpha(adjectives, human_dist, ai_dist, token_indices)
-    
+    # 2. Uncertainty Estimate
     ci_lower, ci_upper = compute_confidence_interval(alpha, adjectives, human_dist, ai_dist, token_indices)
         
     result = {
@@ -142,6 +161,9 @@ def analyze_group(group_data, group_columns, human_dist, ai_dist, token_indices)
     return pd.DataFrame([result])
 
 def run_analysis(df, group_by_cols, human_dist, ai_dist, token_indices, output_filename, num_processes):
+    """
+    Orchestrates the analysis by grouping the dataframe and running estimation in parallel.
+    """
     logger.info(f"Running analysis for: {output_filename}")
 
     groups = df.groupby(group_by_cols)
@@ -195,16 +217,6 @@ def prepare_data_for_analysis(papers_csv, journal_info_csv, cache_file, max_work
         .apply(pd.to_numeric, errors='coerce')
     )
     
-    oa_values = journal_policy_df['% of Citable OA']
-    logger.info(f"OA distribution diagnosis:")
-    logger.info(f"  Total records: {len(oa_values)}")
-    logger.info(f"  Non-null count: {oa_values.notna().sum()}")
-    logger.info(f"  Null count: {oa_values.isna().sum()}")
-    if oa_values.notna().sum() > 0:
-        logger.info(f"  OA value range: {oa_values.min():.2f}% - {oa_values.max():.2f}%")
-        logger.info(f"  Count >=50%: {(oa_values >= 50).sum()}")
-        logger.info(f"  Count <50%: {(oa_values < 50).sum()}")
-        
     journal_policy_df['oa_bin_50'] = np.where(
         journal_policy_df['% of Citable OA'] >= 50,
         'OA>=50%',
@@ -223,9 +235,6 @@ def prepare_data_for_analysis(papers_csv, journal_info_csv, cache_file, max_work
         validate='m:1'
     )
     
-    logger.info(f"OA distribution after merge:")
-    oa_dist_after_merge = papers_df['oa_bin_50'].value_counts()
-    logger.info(f"{oa_dist_after_merge}")
     
     papers_df['publication_date'] = pd.to_datetime(papers_df['publication_date'], errors='coerce')
     papers_df.dropna(subset=['publication_date', 'abstract', 'journal'], inplace=True)

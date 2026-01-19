@@ -44,9 +44,8 @@ os.environ.setdefault("OPENAI_MODEL", DEFAULT_MODEL)
 
 # Modified: Keep only English keywords
 AI_KEYWORDS = [
-    "ai", "artificial intelligence", "llm", "chatgpt", "gpt", "generative", "machine learning",
-    "large language model", "generative ai", "chatbot", "transformer", "neural network"
-]
+    "ai", "artificial intelligence", "llm", "chatgpt", 
+    "language model", "generative ai"]
 
 # Modified: Keep only English keywords
 POLICY_KEYWORDS = [
